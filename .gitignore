@@ -1,0 +1,48 @@
+# Dependencies
+**/node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+**/coverage/
+
+# Production builds
+**/dist/
+**/build/
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local credentials and certificates
+**/.npmrc
+**/.envrc
+**/secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.secret
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database
+local-db/
